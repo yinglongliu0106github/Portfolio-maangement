@@ -52,3 +52,5 @@ def maxSR(meanReturns,covMatrix,riskFreeRate = 0, constraintSet=(0,1)):
 result = maxSR(meanReturns,covMatrix)
 maxSR, maxWeights = result['fun'], result['x']
 print(maxSR, maxWeights)
+
+# part 3 will be continued
